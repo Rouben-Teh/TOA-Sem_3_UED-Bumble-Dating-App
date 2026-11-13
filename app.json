@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Bumble Demo",
+    "slug": "Demo",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/landing.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FEC629"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rouben0216.Demo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.rouben0216.Demo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
